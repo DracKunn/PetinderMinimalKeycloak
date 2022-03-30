@@ -17,6 +17,10 @@ public class PetController {
     this.petService = petService;
   }
 
+  @GetMapping(path = "hello", produces = "application/json")
+  public String helloWorld() {
+    return "Hello world!";
+  }
 
   @GetMapping(produces = "application/json")
   public List<PetDTO> getAllPets() {
