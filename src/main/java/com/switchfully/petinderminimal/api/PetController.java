@@ -19,7 +19,7 @@ public class PetController {
 
   @GetMapping(path = "hello", produces = "application/json")
   public String helloWorld() {
-    return "Hello world!";
+    return "Hello world 2!";
   }
 
   @GetMapping(produces = "application/json")
