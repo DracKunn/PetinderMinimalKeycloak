@@ -19,7 +19,6 @@ public class PetController {
 
   @GetMapping(path = "hello", produces = "application/json")
   public String helloWorld() {
-    getPets();
     return "Hello world 3!";
   }
 }
