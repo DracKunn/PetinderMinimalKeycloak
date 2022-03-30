@@ -21,9 +21,4 @@ public class PetController {
   public String helloWorld() {
     return "Hello world 3!";
   }
-
-  @GetMapping(produces = "application/json")
-  public List<PetDTO> getAllPets() {
-    return petService.getAllPets();
-  }
 }
