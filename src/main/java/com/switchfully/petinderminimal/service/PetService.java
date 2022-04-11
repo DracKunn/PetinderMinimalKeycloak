@@ -9,8 +9,8 @@ import java.util.List;
 
 @Service
 public class PetService {
-  private PetMapper petMapper;
-  private PetRepository petRepository;
+  private final PetMapper petMapper;
+  private final PetRepository petRepository;
 
   public PetService(PetMapper petMapper, PetRepository petRepository) {
     this.petMapper = petMapper;

@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "pets")
 public class PetController {
-  private PetService petService;
+  private final PetService petService;
 
   public PetController(PetService petService) {
     this.petService = petService;

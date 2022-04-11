@@ -1,10 +1,10 @@
 package com.switchfully.petinderminimal.model;
 
 public class PetDTO {
-  private Long id;
-  private String name;
-  private Kind kind;
-  private String profileText;
+  private final Long id;
+  private final String name;
+  private final Kind kind;
+  private final String profileText;
 
   public PetDTO(Long id, String name, Kind kind, String profileText) {
     this.id = id;
