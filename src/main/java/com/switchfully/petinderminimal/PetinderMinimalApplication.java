@@ -13,5 +13,5 @@ public class PetinderMinimalApplication {
   public static void main(String[] args) {
     SpringApplication.run(PetinderMinimalApplication.class, args);
   }
-
+// in postman use https://keycloak.switchfully.com/auth/realms/<YourRealmName>/protocol/openid-connect/token
 }
